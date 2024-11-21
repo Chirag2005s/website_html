@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel=" icon" href="https://png.pngtree.com/png-clipart/20230131/ourmid/pngtree-design-3d-electronic-logo-png-image_6579273.png">
+	<title> Electronic Products </title>
+
+<style>
+body {
+  background-image: url('images/Preject.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(17, 17, 17);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  
+}
+
+@media screen and (max-width: 450px) {
+ .container{
+  flex-wrap: wrap;
+ } 
+  
+}
+</style>
+
+
+</head>
+<body>
+  
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <a href="file:///C:/Users/LENOVO/Desktop/Google%20File/Home.html"Home><i class="fa-solid fa-house"></i>Home</a>
+  <a href="#">About</a>
+  <a href="file:///C:/Users/LENOVO/Desktop/Google%20File/Card.html">Card</a>
+  <a href="file:///C:/Users/LENOVO/Desktop/Google%20File/Contact.html">Contact</a>
+  <a href="file:///C:/Users/LENOVO/Desktop/Google%20File/product.html">Products</a>
+  <a href="#">video</a>
+  
+</div>
+
+<div id="main">
+ <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<style>
+
+  .mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8 0vh;
+  }
+
+  .inputStyle{
+    padding: 15px;
+    width: 25%;
+    border-radius: 60px;
+    border-color: #fff;
+  }
+
+  .jcs{
+    color:black;
+    width: 1150px;
+  }
+</style>
+
+<div class="mainContainer">
+  <input type="text" class="inputStyle" placeholder="Search products..." >
+</div>
+  
+<br>
+
+
+<div class="treining-secton">
+  <h1>Electronic Products</h1>
+  <center><hr class="jcs"></center>
+  <div class="container">
+    <div class="Training-items">
+      <img src="images/tv.png" width="100px">
+      <h3>HTML web Development</h3>
+      <p>HTML whose full name is Hypertext Markup Language, it is a language of the computer which is used to create the webpage. Simply put, HTML is a programming language with the help of which new webpages can be created. All the webpages we see in our web browser are made in HTML itself.</p>
+      <button onclick="">Read more</button>
+  </div>
+  <div class="Training-items">
+      <img src="images/vivo.png"  width="100px"> 
+      <h3>CSS web Development</h3>
+      <p>HTML and CSS is a computer language which is very simple and can be taught easily. To write the code of html and css, we need a text editor such as Notepad. After writing these codes, a web browser is needed to view it through the internet.
+</p>
+      <button>Read more</button>
+  </div>
+  <div class="Training-items">
+      <img src="images/Fan orient.png" width="100px">  
+      <h3>JavaScript web Development</h3>
+      <p>JavaScript is a popular computer programming language, with the help of which HTML web pages can be made more interactive, it is a powerful scripting language. JavaScript supports almost all web browsers and operating systems.
+</p>
+      <button>Read more</button>
+  </div>
+  <div class="Training-items">
+      <img src="images/sony tablet.png" width="100px">
+
+      <h3>C++ Development</h3>
+      <p>In today's article, we will tell you about the most widely used computer language C ++. In this article, we will share all the information related to C++ with you.
+</p>
+      <button>Read more</button>
+  </div>
+  <div class="Training-items">
+      <img src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07961306.png" width="100px">
+      <h3>JAVA Development</h3>
+      <p>It is difficult to compare the performance of a Java program to a program written in its natively compiled language (such as C, C++, or Object Pascal) because the target platform of Java's bytecode compiler is the Java platform itself, and the bytecode is converted into machine code by the JVM. is either translated.
+
+</p>
+      <button>Read more</button>
+  </div>
+  <div class="Training-items">
+      <img src="https://freepngimg.com/thumb/categories/676.png" width="100px">
+      <h3>PHP web Development</h3>
+      <p>All the captured text is placed in the top text-area within the UI. In order to copy the text, use (Ctrl + C) keyboard combination. This add-on has no background activities when it is closed. Moreover, it does not need an internet connection for operation.</p>
+      <button>Read more</button>
+  </div>
+  <div class="Training-items">
+      <img src="images/vr.png" width="100px">
+      <h3>PHP web Development</h3>
+      <p>All the captured text is placed in the top text-area within the UI. In order to copy the text, use (Ctrl + C) keyboard combination. This add-on has no background activities when it is closed. Moreover, it does not need an internet connection for operation.</p>
+      <button>Read more</button>
+  </div>
+  <div class="Training-items">
+      <img src="https://freepngimg.com/thumb/technology/52596-2-laserjet-printer-photos-free-photo-png.png" width="100px">
+      <h3>PHP web Development</h3>
+      <p>All the captured text is placed in the top text-area within the UI. In order to copy the text, use (Ctrl + C) keyboard combination. This add-on has no background activities when it is closed. Moreover, it does not need an internet connection for operation.</p>
+      <button>Read more</button>
+  </div>
+  <div class="Training-items">
+      <img src="images/1+.png" width="100px">
+      <br>
+      <h3>PHP web Development</h3>
+      <p>All the captured text is placed in the top text-area within the UI. In order to copy the text, use (Ctrl + C) keyboard combination. This add-on has no background activities when it is closed. Moreover, it does not need an internet connection for operation.</p>
+      <button>Read more</button>
+  </div>
+   <div class="Training-items">
+      <img src="https://img.favpng.com/3/8/4/led-backlit-lcd-high-definition-television-computer-monitors-hd-ready-png-favpng-Qf2MesJpdBAZZySrDTL1iMG0v.jpg" width="100px">
+      <h3>PHP web Development</h3>
+      <p>All the captured text is placed in the top text-area within the UI. In order to copy the text, use (Ctrl + C) keyboard combination. This add-on has no background activities when it is closed. Moreover, it does not need an internet connection for operation.</p>
+      <button>Read more</button>
+  </div>
+  <div class="Training-items">
+      <img src="images/pngimg.com - photo_camera_PNG101623.png" width="100px">
+      <h3>PHP web Development</h3>
+      <p>All the captured text is placed in the top text-area within the UI. In order to copy the text, use (Ctrl + C) keyboard combination. This add-on has no background activities when it is closed. Moreover, it does not need an internet connection for operation.</p>
+      <button>Read more</button>
+  </div>
+  <div class="Training-items">
+    <img src="https://media.croma.com/image/upload/v1681413701/Croma%20Assets/Computers%20Peripherals/Computer%20Accessories%20and%20Tablets%20Accessories/Images/241704_0_gnscvw.png" width="100px">
+    <h3>PHP web Development</h3>
+    <p>All the captured text is placed in the top text-area within the UI. In order to copy the text, use (Ctrl + C) keyboard combination. This add-on has no background activities when it is closed. Moreover, it does not need an internet connection for operation.</p>
+    <button>Read more</button>
+</div>
+  <div class="Training-items">
+    <img src="images/6-2-web hd.png" width="100px">
+    <h3>PHP web Development</h3>
+    <p>All the captured text is placed in the top text-area within the UI. In order to copy the text, use (Ctrl + C) keyboard combination. This add-on has no background activities when it is closed. Moreover, it does not need an internet connection for operation.</p>
+    <button>Read more</button>
+</div>
+<div class="Training-items">
+    <img src="https://media.croma.com/image/upload/v1681413701/Croma%20Assets/Computers%20Peripherals/Computer%20Accessories%20and%20Tablets%20Accessories/Images/241704_0_gnscvw.png" width="100px">
+    <h3>PHP web Development</h3>
+    <p>All the captured text is placed in the top text-area within the UI. In order to copy the text, use (Ctrl + C) keyboard combination. This add-on has no background activities when it is closed. Moreover, it does not need an internet connection for operation.</p>
+    <button>Read more</button>
+</div>
+<div class="Training-items">
+    <img src="https://media.croma.com/image/upload/v1681413701/Croma%20Assets/Computers%20Peripherals/Computer%20Accessories%20and%20Tablets%20Accessories/Images/241704_0_gnscvw.png" width="100px">
+    <h3>PHP web Development</h3>
+    <p>All the captured text is placed in the top text-area within the UI. In order to copy the text, use (Ctrl + C) keyboard combination. This add-on has no background activities when it is closed. Moreover, it does not need an internet connection for operation.</p>
+    <button>Read more</button>
+</div>
+<div class="Training-items">
+    <img src="https://media.croma.com/image/upload/v1681413701/Croma%20Assets/Computers%20Peripherals/Computer%20Accessories%20and%20Tablets%20Accessories/Images/241704_0_gnscvw.png" width="100px">
+    <h3>PHP web Development</h3>
+    <p>All the captured text is placed in the top text-area within the UI. In order to copy the text, use (Ctrl + C) keyboard combination. This add-on has no background activities when it is closed. Moreover, it does not need an internet connection for operation.</p>
+    <button>Read more</button>
+</div>
+<div class="Training-items">
+  <img src="https://media.croma.com/image/upload/v1681413701/Croma%20Assets/Computers%20Peripherals/Computer%20Accessories%20and%20Tablets%20Accessories/Images/241704_0_gnscvw.png" width="100px">
+  <h3>PHP web Development</h3>
+  <p>All the captured text is placed in the top text-area within the UI. In order to copy the text, use (Ctrl + C) keyboard combination. This add-on has no background activities when it is closed. Moreover, it does not need an internet connection for operation.</p>
+  <button>Read more</button>
+</div>
+</div>
+
+
+<center><hr class="jcs"></center>
+
+<style type="text/css">               
+  
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .treining-secton{
+    padding-bottom: 50px;
+  }
+  
+  .treining-secton h1{
+  text-align: center;
+  padding: 25px 0px;
+  }
+  
+  .container{
+    width: 1170px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    
+  }
+  
+  .Training-items{
+    flex-basis: 23%;
+    margin: 10px 0px;
+    text-align: center;
+    padding: 20px 0px;
+    background: white;
+    box-shadow: 0px 0px 10px 3px ;
+  }
+  
+  .Training-items h3{
+    padding: 10px 0px;
+  }
+  
+  .Training-items p{
+    font-size: 14px;
+  }
+  
+  .Training-items button{
+      background: blue;
+      padding: 10px 25px;
+      border: none;
+      color: white;
+      margin: 10px 0px;
+      border-radius: 10px;
+  }
+  
+  
+  @media only screen and(min-width: 200px) and (max-width:767px){
+      .container{
+          width: 100%;
+          flex-direction: column;
+      }
+      .Training-items{
+          margin: 10px;
+      }
+  }
+  
+  
+  </style>
+  
+<br>
+  <center><video width="500px" controls >
+    <source src="YouCut_20230609_204126275.mp4" type="video/mp4">
+</video></center>
+
+</body>
+</html>
